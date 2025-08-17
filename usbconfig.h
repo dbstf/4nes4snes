@@ -134,7 +134,7 @@ rename it to "usbconfig.h". Then edit it accordingly.
 #define  USB_CFG_DEVICE_ID       0x03, 0x00
 
 
-#define USB_CFG_DEVICE_VERSION  0x05, 0x01
+#define USB_CFG_DEVICE_VERSION  0x06, 0x01
 /* Version number of the device: Minor number first, then major number.
  */
 #define USB_CFG_VENDOR_NAME     'r', 'a', 'p', 'h', 'n', 'e', 't', '.', 'n', 'e', 't'
@@ -241,7 +241,7 @@ rename it to "usbconfig.h". Then edit it accordingly.
 #define USB_CFG_DESCR_PROPS_STRING_VENDOR           0
 
 #define DEVICE_STRING_LENGTH	14
-#define DEFAULT_PROD_STRING	'4','n','e','s','4','s','n','e','s',' ','v','1','.','5'
+#define DEFAULT_PROD_STRING	'4','n','e','s','4','s','n','e','s',' ','v','1','.','6'
 
 #define USB_CFG_DESCR_PROPS_STRING_PRODUCT          (USB_PROP_LENGTH(((DEVICE_STRING_LENGTH+2)*2)) | USB_PROP_IS_RAM)
 

@@ -1,3 +1,6 @@
+--- v1.6 (August 17, 2025)
+ - Update V-USB to version 20121206
+
 --- v1.5 (June 4, 2016)
  - Changed NES to USB button mapping to match SNES (eg: NES A = SNES A...).
  - Changed product name string
